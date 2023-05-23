@@ -1,0 +1,20 @@
+{
+    "name": "socart/autocare",
+    "description": "automotive maintenance mangment system",
+    "type": "project",
+    "license": "no",
+    "autoload": {
+        "psr-4": {
+            "General\\":"vendor/",
+            "Controllers\\":"vendor/../controllers/",
+            "Psr\\Cache\\":"vendor/Psr/",
+            "App\\":""
+        }
+    },
+    "authors": [
+        {
+            "name": "socrat gazale"
+        }
+    ],
+    "require": {}
+}
