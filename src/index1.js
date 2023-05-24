@@ -1,4 +1,4 @@
-import { Client } from 'whatsapp-web';
+import { Client } from 'whatsapp-web.js';
 
 const client = new Client();
 client.on('qr', qr => {

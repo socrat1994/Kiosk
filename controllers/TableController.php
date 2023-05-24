@@ -16,13 +16,9 @@ class TableController
     public $goods;
     public $previous_id;
 
-    public function show()
+    public function showQuantity()
     {
-        $goods = new Good(Good::class);
-        $data = $goods->columns('t0.id')
-            ->quantities(Quantity::class)
-            ->kiosk()->get_();
-        return $data;
+        return Route::data('goods/quantities_view');;
     }
 
     public function showGoods()

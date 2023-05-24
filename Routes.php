@@ -16,8 +16,9 @@ Route::group(['auth', 'role'], GoodsController::class,
      'goods/addtostore/add' => 'addToStore',
      'goods/accounting' => 'accounting'
 ]);
-Route::group([], TableController::class,[
+Route::group(['auth', 'role'], TableController::class,[
     'goods/show' => 'showGoods',
+    'goods/quantity' => 'showQuantity',
     'goods/crud' => 'crud'
 ]);
 

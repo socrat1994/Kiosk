@@ -134,6 +134,9 @@ const tableBuilder = ({url}) => {
                             size: 120,
                         },
                     }}
+                    muiTableHeadCellProps={{
+                        align: 'center',
+                    }}
                     muiTableBodyCellProps={{
                         align: 'center',
                     }}
